@@ -1,0 +1,13 @@
+{
+  "name": "crud-items-lab-task",
+  "version": "1.0.0",
+  "description": "CRUD operations on an in-memory array using HTML, CSS, Express.js and REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

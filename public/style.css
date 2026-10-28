@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+body{margin:0;background:#f4f6f9;color:#253247;font-family:Arial,Helvetica,sans-serif}
+.topbar{height:68px;background:#fff;border-bottom:1px solid #e1e6ee;display:flex;align-items:center;gap:11px;padding:0 max(5vw,22px)}
+.logo{width:37px;height:37px;display:grid;place-items:center;background:#285a96;color:#fff;border-radius:7px;font-size:12px;font-weight:700}
+.brand b{display:block;font-size:15px}.brand small{display:block;font-size:9px;letter-spacing:1.3px;color:#7a8798;margin-top:4px}
+.tag{margin-left:auto;border:1px solid #dce3ed;border-radius:5px;padding:7px 10px;font-size:10px;color:#5a6980}
+.container{max-width:850px;margin:42px auto;padding:0 22px;display:flex;flex-direction:column;gap:18px}
+.panel{background:#fff;border:1px solid #e0e6ee;border-radius:9px;padding:23px;box-shadow:0 3px 12px #24364b08}
+.panel-title{display:flex;align-items:center;margin-bottom:20px}.panel-title h2{font-size:17px;font-weight:600;margin:0;color:#24354c}.table-title{justify-content:space-between}
+.count{font-size:11px;color:#63758d;background:#edf3fb;padding:6px 9px;border-radius:5px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{display:block;font-size:12px;font-weight:600;color:#526278;margin:0 0 8px}
+input:not([type=hidden]){width:100%;padding:11px 12px;border:1px solid #d5dde8;border-radius:6px;background:#fff;font:13px Arial,sans-serif;outline:none}
+input:focus{border-color:#4779b9;box-shadow:0 0 0 3px #4779b918}
+.actions{display:flex;gap:8px;margin-top:19px}.primary{min-width:110px;background:#285a96;color:#fff;border:0;border-radius:6px;padding:11px 18px;font-size:12px;font-weight:600;cursor:pointer}.primary:hover{background:#204b80}
+.cancel{background:#fff;border:1px solid #d5dde8;border-radius:6px;padding:0 15px;cursor:pointer}.hidden{display:none}
+#message{font-size:12px;color:#28714b;margin-bottom:0}#message.error{color:#b33e3e}
+.scroll{overflow-x:auto}table{width:100%;border-collapse:collapse;text-align:left}th{font-size:11px;color:#65748a;background:#f7f9fc;padding:12px 10px;border-bottom:1px solid #e1e7ef;font-weight:600}td{font-size:13px;padding:13px 10px;border-bottom:1px solid #edf0f5}tbody tr:last-child td{border-bottom:0}tbody tr:hover{background:#fafcff}
+.action-buttons{display:flex;gap:7px}.action-buttons button{padding:6px 10px;border:1px solid #dce3ed;background:#fff;border-radius:5px;font-size:11px;cursor:pointer}.edit-button{color:#285a96}.delete-button{color:#b34444}
+@media(max-width:560px){.container{margin:24px auto;padding:0 12px}.panel{padding:16px}.form-grid{grid-template-columns:1fr;gap:13px}.action-buttons{flex-direction:column}.tag{font-size:9px}}
